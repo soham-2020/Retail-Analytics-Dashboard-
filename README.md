@@ -1,55 +1,92 @@
-Retail Analytics Dashboard
-SQL & Power BI | Customer Profiling, Sales & Profit Trends, Forecasting & Drillthrough
+# 🛒 Retail Analytics Dashboard  
+**SQL & Power BI | Customer Profiling, Sales & Profit Trends, Forecasting & Drillthrough**
 
-Problem Statement
+---
 
-With increasing competition and growing customer expectations, a large retail superstore aims to leverage data to make informed business decisions. The organization wants to understand which products, regions, and customer segments drive profitability, identify operational inefficiencies such as delivery delays, and forecast future sales trends to support strategic planning.
+## 📌 Problem Statement
 
-The objective of this project is to analyze retail transactional data and convert it into actionable insights that help improve customer targeting, operational efficiency, and overall profitability.
+With increasing competition and rising customer expectations, a large retail superstore aims to leverage data-driven decision-making to improve profitability, customer retention, and operational efficiency.
 
-Power BI Dashboard Features
+The business wants to understand:
+- Which **products and sub-categories** drive the highest profit
+- Which **regions and countries** should be prioritized or optimized
+- Which **customer segments** contribute the most long-term value
+- How **delivery times and shipping costs** impact profitability
+- Whether **future sales trends** can be forecasted to support planning
 
-• Sales Overview Dashboard
-Displays KPI cards for Total Sales, Total Profit, Quantity, and Discounts, along with monthly and yearly sales trends, regional sales distribution, and top-performing products by profit.
+This project analyzes retail transactional data and transforms it into **actionable business insights** using SQL and Power BI.
 
-• Customer Analytics Dashboard
-Focuses on frequency-based customer segmentation, average sales per customer by segment, and profit contribution by different customer types.
+---
 
-• Product Performance Dashboard
-Highlights profit margins by sub-category, year-over-year growth analysis, and drillthrough functionality for detailed product-level analysis.
+## 📊 Power BI Dashboard Features
 
-• Delivery and Logistics Insights
-Analyzes average delivery time by country and evaluates the relationship between shipping cost and profit to identify inefficiencies.
+### 1️⃣ Sales Overview Dashboard
+- KPI cards for **Total Sales, Total Profit, Quantity, and Discounts**
+- **Monthly and yearly sales trends**
+- **Regional sales distribution**
+- **Top-performing products by profit**
 
-• Forecasting and Trend Analysis
-Includes time-series forecasting for future sales and dynamic slicers to analyze trends by region, segment, and time period.
+### 2️⃣ Customer Analytics Dashboard
+- **Frequency-based customer segmentation** (Very Frequent, Frequent, Occasional, Rare)
+- **Average sales per customer** by segment
+- **Profit contribution** by customer type
 
-Key Business Insights
+### 3️⃣ Product Performance Dashboard
+- **Profit margins by sub-category**
+- **Year-over-year growth analysis**
+- **Drillthrough functionality** for detailed product-level insights
 
-• High-frequency customers contribute over 60% of total profit, emphasizing the importance of customer retention strategies.
-• Top three countries account for more than 70% of overall sales, indicating strong regional concentration.
-• Certain product sub-categories consistently dominate profits across multiple years.
-• Reducing delivery delays in high-latency regions can improve profit margins by approximately 8%.
-• Sales show a consistent upward trend, supporting growth and inventory planning decisions.
+### 4️⃣ Delivery & Logistics Insights
+- **Average delivery time by country**
+- Analysis of **shipping cost vs profit** relationship
 
-Project Workflow
+### 5️⃣ Forecasting & Trend Analysis
+- **Time-series forecasting** for future sales
+- **Dynamic slicers** for region, segment, and date
 
-• Data ingestion from raw retail files into a SQL database.
-• Data cleaning and validation to handle missing values, duplicates, and inconsistencies.
-• Normalized data modeling with well-defined table relationships.
-• SQL-based KPI and analytical query development.
-• Integration of SQL database with Power BI for visualization.
-• Development of interactive dashboards and forecasting visuals.
+---
 
-Business Impact
+## 🧠 Key Business Insights
 
-• Enables marketing teams to target and retain high-value customers.
-• Helps supply chain teams identify and reduce delivery delays.
-• Supports finance teams in monitoring profitability and product performance.
-• Assists leadership in making data-driven strategic decisions.
+- **High-frequency customers contribute over 60% of total profit**, highlighting the importance of retention strategies
+- **Top three countries generate more than 70% of overall sales**, showing strong regional concentration
+- **Certain product sub-categories consistently dominate profits** across multiple years
+- **Reducing delivery delays in high-latency regions can improve profit margins by ~8%**
+- **Sales exhibit a strong upward trend**, supporting growth and inventory planning
 
-Conclusion
+---
 
-This project demonstrates strong capabilities in SQL data modeling, analytical querying, Power BI dashboard design, customer segmentation, and data storytelling. It effectively bridges data engineering and analytics, making it well suited for Data Analyst and Business Intelligence roles.
+## 🔄 Project Workflow
 
-Author: Soham Vashistha
+1. **Data Ingestion** – Loaded raw retail data into a SQL database  
+2. **Data Cleaning & Validation** – Handled missing values, duplicates, and inconsistencies  
+3. **Data Modeling** – Created normalized tables with defined relationships  
+4. **SQL Analytics** – Built KPIs and business-driven analytical queries  
+5. **Power BI Integration** – Connected SQL database to Power BI  
+6. **Dashboarding & Forecasting** – Designed interactive visuals and predictive trends  
+
+---
+
+## 🧾 Business Impact
+
+- Enables **marketing teams** to target and retain high-value customers  
+- Helps **supply chain teams** identify and reduce delivery delays  
+- Supports **finance teams** in tracking profitability and product health  
+- Assists **leadership** in making data-driven strategic decisions  
+
+---
+
+## 🏁 Conclusion
+
+This project demonstrates strong skills in:
+- **SQL data modeling and analytics**
+- **Business-focused dashboard design**
+- **Customer segmentation and trend analysis**
+- **Data storytelling and decision support**
+
+It bridges **data engineering and analytics**, making it well suited for **Data Analyst and Business Intelligence roles**.
+
+---
+
+**Author:** Soham Vashistha  
+⭐ *If you found this project useful, feel free to star the repository!*
