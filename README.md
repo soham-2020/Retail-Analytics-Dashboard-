@@ -1,51 +1,55 @@
-1)Retail Analytics Dashboard
+Retail Analytics Dashboard
 SQL & Power BI | Customer Profiling, Sales & Profit Trends, Forecasting & Drillthrough
 
-2)Problem Statement
-With growing market demand and cut-throat competition, a large retail superstore aims to make data-driven decisions to improve profitability, customer retention, and operational efficiency.The business wants to understand which products and sub-categories generate the highest profit, which regions and countries should be prioritized or optimized, which customer segments drive long-term value, how delivery times and shipping costs impact profitability, and whether future sales trends can be forecasted for better planning.This project addresses these questions by transforming raw transactional data into actionable business insights using SQL and Power BI.
-3)Project Overview
-This project delivers an end-to-end retail data analytics solution, covering SQL-based data modeling, cleaning, and KPI computation, analytical SQL queries for customer, product, and regional insights, and interactive Power BI dashboards with forecasting and drillthrough capabilities.The final solution enables stakeholders across marketing, finance, and supply chain teams to take informed decisions.
-4)Tech Stack
-•	SQL ( PostgreSQL) for data modeling, transformations, and analytical queries
-•	Power BI for interactive dashboards, forecasting, and drillthrough analysis
-•	Excel / CSV for raw data ingestion and preprocessing
-5)Database Design and Data Modeling
-A normalized relational schema (3NF) was designed to ensure data integrity and efficient querying.Tables include customers (customer details, geography, segment, and market), products (product category and sub-category hierarchy), orders (transaction-level sales, profit, discount, and shipping data), and raw_data (staging table for initial data load and transformation).Key data engineering steps included removing duplicates, handling missing values such as postal codes, enforcing primary and foreign key relationships, and splitting raw data into analytical fact and dimension tables.
-6)Key SQL Analytics
-•	Customer purchase frequency classification into Very Frequent, Frequent, Occasional, and Rare
-•	Profit margin analysis across customer frequency buckets
-•	Year-wise segment profitability trends
-•	Country-level sales and customer distribution analysis
-•	Top five profit-making sub-categories per year using window functions
-•	Delivery time analysis using order and ship date differences
+Problem Statement
 
-•	These SQL analyses form the backbone of the Power BI dashboards.
+With increasing competition and growing customer expectations, a large retail superstore aims to leverage data to make informed business decisions. The organization wants to understand which products, regions, and customer segments drive profitability, identify operational inefficiencies such as delivery delays, and forecast future sales trends to support strategic planning.
 
-7)Power BI Dashboard Features
-•	The Sales Overview page includes KPI cards for total sales, profit, quantity, and discounts, along with monthly and yearly sales trends, regional sales distribution, and top products by profit.
-•	The Customer Analytics page focuses on frequency-based customer segmentation, average sales per customer by segment, and profit contribution by customer type.
-•	The Product Performance page highlights profit margins by sub-category, year-over-year growth analysis, and drillthrough to individual product-level insights.
-•	The Delivery and Logistics Insights page analyzes average delivery time by country and the relationship between shipping cost and profit.
-•	The Forecasting and Trend Analysis page includes time-series forecasting for future sales and dynamic slicers for region, segment, and date.
+The objective of this project is to analyze retail transactional data and convert it into actionable insights that help improve customer targeting, operational efficiency, and overall profitability.
+
+Power BI Dashboard Features
+
+• Sales Overview Dashboard
+Displays KPI cards for Total Sales, Total Profit, Quantity, and Discounts, along with monthly and yearly sales trends, regional sales distribution, and top-performing products by profit.
+
+• Customer Analytics Dashboard
+Focuses on frequency-based customer segmentation, average sales per customer by segment, and profit contribution by different customer types.
+
+• Product Performance Dashboard
+Highlights profit margins by sub-category, year-over-year growth analysis, and drillthrough functionality for detailed product-level analysis.
+
+• Delivery and Logistics Insights
+Analyzes average delivery time by country and evaluates the relationship between shipping cost and profit to identify inefficiencies.
+
+• Forecasting and Trend Analysis
+Includes time-series forecasting for future sales and dynamic slicers to analyze trends by region, segment, and time period.
+
 Key Business Insights
-•	High-frequency customers contribute over 60 percent of total profit, highlighting the importance of customer retention.
-•	The top three countries generate more than 70 percent of overall sales, indicating strong regional concentration.
-•	Certain product sub-categories consistently dominate profits across multiple years.
-•	Reducing delivery delays in high-latency regions can improve profit margins by approximately eight percent.
-•	Sales show a strong upward trend, supporting inventory planning and growth strategies.
 
-8)Project Workflow
-•	Data was ingested from raw retail files into a SQL database.
-•	Data cleaning was performed to handle missing values, duplicates, and inconsistencies.
-•	Normalized tables were created with proper relationships.
-•	SQL queries were used to build KPIs and business metrics.
-•	The SQL database was connected to Power BI for visualization.
-•	Interactive dashboards and forecasting visuals were developed.
+• High-frequency customers contribute over 60% of total profit, emphasizing the importance of customer retention strategies.
+• Top three countries account for more than 70% of overall sales, indicating strong regional concentration.
+• Certain product sub-categories consistently dominate profits across multiple years.
+• Reducing delivery delays in high-latency regions can improve profit margins by approximately 8%.
+• Sales show a consistent upward trend, supporting growth and inventory planning decisions.
 
-9)Business Impact
-This solution helps marketing teams target high-value customers, supply chain teams identify and reduce delivery delays, finance teams track profitability and product health, and leadership make data-backed strategic decisions.
+Project Workflow
 
-10)Conclusion
-This project demonstrates strong skills in SQL data modeling and analytics, business-focused dashboard design, customer segmentation, trend analysis, and data storytelling. It bridges data engineering and analytics and is well suited for data analyst and BI roles.
-⭐ *If you found this project useful, feel free to star the repository!*
-Author-Soham Vashistha
+• Data ingestion from raw retail files into a SQL database.
+• Data cleaning and validation to handle missing values, duplicates, and inconsistencies.
+• Normalized data modeling with well-defined table relationships.
+• SQL-based KPI and analytical query development.
+• Integration of SQL database with Power BI for visualization.
+• Development of interactive dashboards and forecasting visuals.
+
+Business Impact
+
+• Enables marketing teams to target and retain high-value customers.
+• Helps supply chain teams identify and reduce delivery delays.
+• Supports finance teams in monitoring profitability and product performance.
+• Assists leadership in making data-driven strategic decisions.
+
+Conclusion
+
+This project demonstrates strong capabilities in SQL data modeling, analytical querying, Power BI dashboard design, customer segmentation, and data storytelling. It effectively bridges data engineering and analytics, making it well suited for Data Analyst and Business Intelligence roles.
+
+Author: Soham Vashistha
