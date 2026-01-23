@@ -84,8 +84,6 @@ This project demonstrates strong skills in:
 - **Customer segmentation and trend analysis**
 - **Data storytelling and decision support**
 
-It bridges **data engineering and analytics**, making it well suited for **Data Analyst and Business Intelligence roles**.
-
 ---
 
 **Author:** Soham Vashistha  
